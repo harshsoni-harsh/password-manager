@@ -1,0 +1,62 @@
+.color-1 {
+    background-color: #f59e0b;
+}
+
+.color-2 {
+    background-color: #10b981;
+}
+
+.color-3 {
+    background-color: #f97316;
+}
+
+.color-4 {
+    background-color: #14b8a6;
+}
+
+.color-5 {
+    background-color: #b91c1c;
+}
+li {
+    border-radius: 5px;
+    border: 1px solid #7683cb;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 15px 15px 0;
+    width: 270px;
+}
+li > div > div > * {
+    margin: 5px;
+}
+.stars {
+    height: 15px;
+}
+li > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+li > div > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+li > div > button > img {
+    height: 35px;
+}
+.nameInit, .nameInit > p {
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+.nameInit {
+    margin: 10px;
+}
